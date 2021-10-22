@@ -258,48 +258,6 @@
   .title-item {
     font-family: 'vie bold';
   }
-
-  /* CSS PHẦN DANH SÁCH KHÁCH ĐẶT HÀNG */
-  .customer-list {
-    padding: 30px 0;
-    background: #fff;
-  }
-
-  .list-title {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .list-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .customer-table {
-    /* width: 100%; */
-    margin: 0 auto;
-  }
-
-  .data {
-    border-collapse: collapse;
-    border-radius: 1em;
-    overflow: hidden;
-  }
-
-  .data tbody {
-    height: 224px;
-    overflow-y: scroll;
-    display: block;
-  }
-
-  .data th, .data td {
-    padding: 1em;
-    background: #f4f4f4;
-    border-bottom: 2px solid #fff;
-  }
 }
 
 @media (max-width: 736px) {
