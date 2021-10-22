@@ -1,0 +1,298 @@
+.footer {
+  width: 100%;
+}
+
+.top-footer {
+  width: 100%;
+}
+
+.product-and-service-container, .online-shopping-container, .help-container, .account-and-comunity-container, .company-container {
+  padding: 15px;
+}
+
+.top-footer-title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.top-footer-title p {
+  font-size: 18px;
+}
+
+.product-and-service-items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-items p , .right-items p {
+  margin-bottom: 5px;
+}
+
+.item-link {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+  transition: 1s;
+  color: #ececec;
+}
+
+.items-box .items p {
+  margin-bottom: 5px;
+}
+
+.company-items .items p:last-child span {
+  width: 10px;
+  height: 10px;
+}
+
+.company-items .items p:last-child span img {
+  width: 10px;
+  height: 10px;
+}
+
+.middle-footer {
+  padding: 23px 15px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.footer-info p {
+  font-size: 12px;
+}
+
+.bottom-footer {
+  padding: 23px 15px;
+}
+
+.bottom-link {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.info-input {
+}
+
+@media (max-width: 1023px) {
+  .customer-info {
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .customer-transfer {
+    padding: 30px;
+    background-color: #f4f4f4;
+  }
+
+  .enter-info {
+    padding: 30px 5px;
+    background-color: #fff;
+  }
+
+  form {
+    padding: 10px 0;
+  }
+
+  .infor-input {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dad5d5;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'vie medium';
+  }
+
+  .areatext {
+    height: 60px;
+  }
+
+  .infor-input-btn {
+    padding: 10px 30px;
+    font-family: 'vie bold';
+    font-weight: 700;
+    color: #fff;
+    background-color: #004390;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .infor-input-btn:hover {
+    background-color: #f1b821;
+  }
+
+  .contact-box {
+    background-color: #004390;
+    height: 100%;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .contact-box h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+  }
+
+  .contact-logo {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .line {
+    width: 90%;
+    border-top: 2px solid #fff;
+    margin: 18px auto 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-footer {
+    display: grid;
+    grid-template-columns: 32% 17% 17% 17% 17%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .product-and-service-container, .online-shopping-container, .help-container, .account-and-comunity-container {
+    border-right: 1px solid #d9d9d9;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bottom-left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom-left div{
+    padding: 0 10px;
+  }
+
+  .bottom-left div:first-child {
+    padding-left: 0;
+    border-right: 1px solid #d9d9d9;
+  }
+
+  .bottom-right {
+
+  }
+
+  .connect-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .connect-box {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .connect-box p {
+    font-size: 12px;
+  }
+
+  .connect-icon-box {
+    text-align: right;
+  }
+
+  .connect-icon-box i {
+    margin-left: 10px;
+  }
+
+  .customer-info {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .customer-transfer {
+    background-color: #fff;
+    padding: 30px 30px;
+  }
+
+  #customer-transfer p {
+    margin-top: 16px;
+  }
+
+  .enter-info {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 30px 30px;
+  }
+
+  form {
+    padding: 10px 0;
+  }
+
+  .infor-input {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dad5d5;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'vie medium';
+  }
+
+  /* .areatext {
+    height: 60px;
+  } */
+  .infor-input-btn {
+    padding: 10px 30px;
+    font-family: 'vie bold';
+    font-weight: 700;
+    color: #fff;
+    background-color: #004390;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.6s;
+  }
+
+  .infor-input-btn:hover {
+    background-color: #f1b821;
+  }
+
+  .contact-box {
+    background-color: #004390;
+    height: 100%;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .contact-box h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+  }
+
+  .contact-logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+
+  .line {
+    width: 60%;
+    border-top: 2px solid #fff;
+    margin-top: 18px;
+    margin-right: 20px;
+  }
+}

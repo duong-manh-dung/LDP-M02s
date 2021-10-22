@@ -1,0 +1,379 @@
+.main {
+  width: 100%;
+  padding-top: 50px;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.column {
+  /* width: 600px; */
+  padding: 30px;
+}
+
+#featured {
+  max-width: 500px;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: pointer;
+  /* border: 2px solid black; */
+}
+
+.thumbnail {
+  object-fit: cover;
+  max-width: 100px;
+  max-height: 180px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+#slide-wrapper {
+  max-width: 500px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+}
+
+#slider {
+  width: 440px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.arrow {
+  font-size: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.arrow:hover {
+  opacity: .5;
+  font-size: 35px;
+}
+
+.code {
+  font-size: 12px;
+  color: #666666;
+}
+
+.time-delivery {
+  width: fit-content;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.time-delivery p {
+  font-size: 14px;
+}
+
+.size {
+  /* width: 200px; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.size div {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.size div p:first-child {
+  font-family: 'vie bold';
+  font-size: 12px;
+}
+
+.size div p:last-child {
+  font-family: 'vie medium';
+  font-size: 12px;
+}
+
+.ram128GB {
+  border: 1px solid #EEEEEE;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.ram256GB {
+  border-radius: 0 5px 5px 0px;
+}
+
+.discount {
+  width: fit-content;
+  padding: 5px;
+  background-color: #FF0000;
+  border-radius: 5px;
+}
+
+.discount p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.price {
+  font-size: 40px;
+  font-family: 'vie medium';
+}
+
+.column a button {
+  background-color: inherit;
+  border-radius: 40px;
+  padding: 10px 32px;
+  font-family: 'vie bold';
+  border: 1px solid #000;
+  cursor: pointer;
+  color: #000;
+  margin-top: 20px;
+}
+
+.column a button:hover {
+  animation: btnAnimated .5s forwards;
+  border: 1px solid #0077c8;
+  background-color: #0077c8;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+@keyframes btnAnimated {
+  from {
+    border-radius: 40px;
+  }
+
+  to {
+    border-radius: 10px;
+  }
+}
+
+.bottom-discount {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #EEEEEE;
+}
+
+.bottom-discount p {
+  font-size: 13px;
+  color: #666666;
+}
+
+#product-wrapper {
+  text-align: center;
+  padding: 0;
+}
+
+.child {
+  margin-bottom: 120px;
+}
+
+.product-feature {
+  margin-top: 60px;
+}
+
+#product-wrapper h1 {
+  font-size: 44px;
+  padding: 30px;
+}
+
+.describe {
+  margin: 30px 0;
+  padding: 0 60px;
+}
+
+.describe p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.come-in {
+  width: 100%;
+}
+
+.come-in img {
+  width: 100%;
+}
+
+@media (min-width: 737px) {
+  #detail-wrapper {
+    background-color: #f8f8f8;
+    padding: 120px 60px 60px;
+  }
+
+  #detail-wrapper h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .detail {
+    border-top: 1px solid #e7e7e8;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding-bottom: 60px;
+  }
+
+  .left {
+    margin-right: 15px;
+  }
+
+  .left p {
+    font-family: 'vie bold';
+  }
+
+  .right-desc {
+    font-family: 'vie medium';
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  .specifications-right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .sub-left {
+    margin-right: 10px;
+  }
+
+  .sub-right {
+    margin-left: 10px;
+  }
+
+  .title-item {
+    font-family: 'vie bold';
+  }
+
+  /* CSS PHẦN DANH SÁCH KHÁCH ĐẶT HÀNG */
+  .customer-list {
+    padding: 30px 0;
+    background: #fff;
+  }
+
+  .list-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .data {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+
+  .data tbody {
+    height: 224px;
+    overflow-y: scroll;
+    display: block;
+  }
+
+  .data th, .data td {
+    padding: 1em;
+    background: #f4f4f4;
+    border-bottom: 2px solid #fff;
+  }
+}
+
+@media (max-width: 736px) {
+
+  #detail-wrapper {
+    background-color: #f8f8f8;
+    padding: 60px 20px 20px;
+  }
+
+  #detail-wrapper h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .detail {
+    border-top: 1px solid #e7e7e8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .left {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-family: 'vie bold';
+  }
+
+  .specifications-right {
+    margin-top: 10px;
+  }
+
+  .right-desc {
+    font-family: 'vie medium';
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  .title-item {
+    font-family: 'vie bold';
+  }
+
+  /* CSS PHẦN DANH SÁCH KHÁCH ĐẶT HÀNG */
+  .customer-list {
+    padding: 30px 0;
+    background: #fff;
+  }
+
+  .list-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .list-content {
+    width: 97%;
+    margin: 0 auto;
+  }
+
+  .product-even {
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .data {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+
+  .data tbody {
+    height: 224px;
+    overflow-y: scroll;
+    display: block;
+  }
+
+  .data th, .data td {
+    padding: 1em;
+    background: #f4f4f4;
+    border-bottom: 2px solid #fff;
+  }
+}
