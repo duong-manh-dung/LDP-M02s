@@ -278,6 +278,11 @@
     margin: 0 auto;
   }
 
+  .customer-table {
+    /* width: 100%; */
+    margin: 0 auto;
+  }
+
   .data {
     border-collapse: collapse;
     border-radius: 1em;

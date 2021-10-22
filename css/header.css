@@ -96,7 +96,7 @@
 
   .big-gallery-banner img {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 10px;
   }
 
@@ -110,7 +110,7 @@
 
   /* Style Carousel */
   .flickity-viewport {
-    height: 450px !important;
+    height: 500px !important;
   }
 
   .flickity-button {
